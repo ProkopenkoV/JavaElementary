@@ -1,0 +1,21 @@
+public class Secondtask {
+
+    public static void main(String[] args) {
+        System.out.print("Original array elements: ");
+        int arrForHW2[] = {61, 119, 202, 7, 300, 150, 781, 927, 9, 222,};
+        for (int i = 0; i < arrForHW2.length; i++) {
+            System.out.print(arrForHW2[i] + " ");
+        }
+
+        System.out.println(" ");
+        for (int i = 0; i < arrForHW2.length; i++) {
+            int temp = 2;
+            if (arrForHW2[i] % 2 == 0) {
+                System.out.print(" ");
+            } else {
+                System.out.println(arrForHW2[i] + " - This number is simple");
+            }
+        }
+    }
+
+}
